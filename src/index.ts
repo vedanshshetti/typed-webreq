@@ -5,7 +5,7 @@ import { isNullish, mapStatus } from "./utils";
 
 
 
-const buildURI = (protocol: RequestProtocol, URIPath: string): string => `${protocol}${URIPath}`;
+const buildURI = (protocol: RequestProtocol, URIPath: string): string => `${protocol}${protocol.includes("http") ? "://" : ""}${URIPath}`;
 const createError = (message: string, uri: string) => (`[@typescript-utils/typed-webreq - ${new Date().toISOString().split(".")[0]}]: An error occured while attempting to fetch data from ${uri}: ${message}`);
 
 interface WebReqMetadataInterface {
