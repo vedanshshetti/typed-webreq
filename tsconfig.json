@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+
+    "outDir": "./dist",
+    "rootDir": "./src",
+
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+
+    "types": []
+  },
+  "include": ["src"],
+  "exclude": ["dist", "node_modules"]
+}

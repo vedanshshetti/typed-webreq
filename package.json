@@ -1,0 +1,26 @@
+{
+  "name": "@typescript-utils/typed-webreq",
+  "version": "1.0.0",
+  "description": "TypeScript Web Requests with type safety and error handling.",
+  "main": "dist/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedanshshetti/typed-webreq.git"
+  },
+  "dependencies": {
+		"@typescript-utils/helpertypes": "^1.0.0",
+		"@typescript-utils/schema-validator": "^1.4.0"
+	},
+  "keywords": [],
+  "author": "Vedansh Shetti <vedansh.shetti@gmail.com>",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/vedanshshetti/typed-webreq/issues"
+  },
+  "homepage": "https://github.com/vedanshshetti/typed-webreq#readme"
+}

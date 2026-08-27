@@ -1,0 +1,32 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@typescript-utils/helpertypes':
+        specifier: ^1.0.0
+        version: 1.0.0
+      '@typescript-utils/schema-validator':
+        specifier: ^1.4.0
+        version: 1.4.0
+
+packages:
+
+  '@typescript-utils/helpertypes@1.0.0':
+    resolution: {integrity: sha512-mCGMzxPuVsaHZGpefUfOeJS8xLdFDH8fvoJqa9VmtZxwsaAiYTOAsO033BTqb+Kb1NabeS9ycK8I/ex+oHXlEA==}
+
+  '@typescript-utils/schema-validator@1.4.0':
+    resolution: {integrity: sha512-ySw8dlVLpMjA80THjGsoOXMQCcLbBWqCiY8vnYufkMLTscXCVutiTp7gU6tXd5Oj3ubuyiuQlp0pmIG8mQVEqA==}
+
+snapshots:
+
+  '@typescript-utils/helpertypes@1.0.0': {}
+
+  '@typescript-utils/schema-validator@1.4.0':
+    dependencies:
+      '@typescript-utils/helpertypes': 1.0.0
