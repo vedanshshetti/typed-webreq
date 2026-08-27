@@ -1,6 +1,6 @@
 {
   "name": "@typescript-utils/typed-webreq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript Web Requests with type safety and error handling.",
   "main": "dist/index.js",
   "devDependencies": {},
